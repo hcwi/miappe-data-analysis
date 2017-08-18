@@ -372,7 +372,7 @@
     <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17691fbb_0ab4_44ea_8cba_a0beddfc4768 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17691fbb_0ab4_44ea_8cba_a0beddfc4768">
-        <rdfs:label xml:lang="en">ModelEstimation</rdfs:label>
+        <rdfs:label xml:lang="en">ModelFitting</rdfs:label>
     </owl:Class>
     
 

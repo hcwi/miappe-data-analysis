@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/hania/ontologies/2017/6/pizza-ontology#"
-     xml:base="http://www.semanticweb.org/hania/ontologies/2017/6/pizza-ontology"
+<rdf:RDF xmlns="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#"
+     xml:base="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -21,243 +21,247 @@
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_0081f85b_e085_4e3f_8559_600225ef1088 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEffect -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_0081f85b_e085_4e3f_8559_600225ef1088">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_a848da8e_c72f_4fc0_8432_67d45e980ce8"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEffect">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isEffectOf"/>
         <rdfs:label xml:lang="en">hasEffect</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_05da2d9d_fc4d_4198_97d3_2c9817abb218 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#finds -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_05da2d9d_fc4d_4198_97d3_2c9817abb218">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_11750af7_2c8c_4e3e_8459_6f1cfa706f29"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17691fbb_0ab4_44ea_8cba_a0beddfc4768"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_03b2b8a1_2794_467f_9273_9f34476b220c"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#finds">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isFoundBy"/>
         <rdfs:label xml:lang="en">finds</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_11750af7_2c8c_4e3e_8459_6f1cfa706f29 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isFoundBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_11750af7_2c8c_4e3e_8459_6f1cfa706f29">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isFoundBy">
         <rdfs:label xml:lang="en">isFoundBy</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_12d189c3_45fb_4a30_bbac_cee6e45a9ac1 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isQuantifiedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_12d189c3_45fb_4a30_bbac_cee6e45a9ac1">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_2de617b8_e9d3_4439_9c21_0398ae51ead4"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isQuantifiedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#quantifies"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_3e694f0c_13c4_40fa_a017_e85bc819a674"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_76aad158_7e34_48be_85d1_6baff2005c27"/>
         <rdfs:label xml:lang="en">isQuantifiedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_1b6751c5_65d5_43f6_ada6_fe053bb401e6 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isDescribedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_1b6751c5_65d5_43f6_ada6_fe053bb401e6">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_c2ab6bc5_532a_4813_bda9_16902ac92c8b"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isDescribedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#describes"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">isDescribedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_25ae4636_d550_4305_8d59_f0de42ef0afe -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#affects -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_25ae4636_d550_4305_8d59_f0de42ef0afe">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_79396412_34ba_419f_a14a_8b0a85a07ae0"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_152c32a5_d8c1_42db_8e8f_a3f432f7c2ce"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#affects">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isAffectedBy"/>
         <rdfs:label xml:lang="en">affects</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_2de617b8_e9d3_4439_9c21_0398ae51ead4 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#quantifies -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_2de617b8_e9d3_4439_9c21_0398ae51ead4">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#quantifies">
         <rdfs:label xml:lang="en">quantifies</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_350c99c6_11f9_4593_a8e5_278b4fc6ce49 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isSolvedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_350c99c6_11f9_4593_a8e5_278b4fc6ce49">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_d83697bf_35c3_4c93_8a20_f8e3d7e3e97f"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isSolvedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#solves"/>
         <rdfs:label xml:lang="en">isSolvedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_38b9c82a_0fd1_4efc_81ab_0b9a98b3eccb -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasProbabilityDistribution -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_38b9c82a_0fd1_4efc_81ab_0b9a98b3eccb">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_fcae3b4f_8a7c_4f10_ac62_fbd9e6bb70cb"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasProbabilityDistribution">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isDistributionOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c036816_7fdb_4237_8e39_7d135c9e2db0"/>
         <rdfs:label xml:lang="en">hasProbabilityDistribution</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_48c0cd03_4bd3_4072_842d_05d345ddc056 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isParameterOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_48c0cd03_4bd3_4072_842d_05d345ddc056">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_6ab4b0ef_9beb_4f23_93f9_c54fde11eec0"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isParameterOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isParametrizedBy"/>
         <rdfs:label xml:lang="en">isParameterOf</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_4edb4a32_e91a_43d3_b1dc_4ffd90ffe1c4 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasDependantVariable -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_4edb4a32_e91a_43d3_b1dc_4ffd90ffe1c4">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_c39658cd_a43b_4493_9b58_57cec3dd1df4"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasDependantVariable">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasVariable"/>
         <rdfs:label xml:lang="en">hasDependantVariable</rdfs:label>
         <rdfs:seeAlso xml:lang="en">DependentVariable, ResponseVariable, Regressand, PredictedVariable, MeasuredVariable, ExplainedVariable, ExperimentalVariable, RespondingVariable, OutcomeVariable, OutputVariable, Label</rdfs:seeAlso>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_5c7f731d_e384_4ac5_b6ca_316b7ee23ae6 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEstimator -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_5c7f731d_e384_4ac5_b6ca_316b7ee23ae6">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_d6f064cf_1bbb_4d49_b6fc_6dcf2cbd1a9a"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEstimator">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isEstimateOf"/>
         <rdfs:label xml:lang="en">hasEstimator</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_6ab4b0ef_9beb_4f23_93f9_c54fde11eec0 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isParametrizedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_6ab4b0ef_9beb_4f23_93f9_c54fde11eec0">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c036816_7fdb_4237_8e39_7d135c9e2db0"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isParametrizedBy">
         <rdfs:label xml:lang="en">isParametrizedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_715fcf27_a5db_4402_8125_cf0dc80c847d -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isMethodOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_715fcf27_a5db_4402_8125_cf0dc80c847d">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_bf62e253_7813_4eed_bbe6_49578949d962"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isMethodOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasMethod"/>
         <rdfs:label xml:lang="en">isMethodOf</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_79396412_34ba_419f_a14a_8b0a85a07ae0 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isAffectedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_79396412_34ba_419f_a14a_8b0a85a07ae0">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isAffectedBy">
         <rdfs:label xml:lang="en">isAffectedBy</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_81de83a4_5d9a_4de7_932f_ee2ba886f676 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasIndependentVariable -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_81de83a4_5d9a_4de7_932f_ee2ba886f676">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_c39658cd_a43b_4493_9b58_57cec3dd1df4"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasIndependentVariable">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasVariable"/>
         <rdfs:label xml:lang="en">hasIndependentVariable</rdfs:label>
         <rdfs:seeAlso xml:lang="en">PredictorVariable, Regressor, ControlledVariable, ManipulatedVariable, ExplanatoryVariable, ExposureVariable, RiskFactor, Feature, InputVariable</rdfs:seeAlso>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_a848da8e_c72f_4fc0_8432_67d45e980ce8 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isEffectOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_a848da8e_c72f_4fc0_8432_67d45e980ce8">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_152c32a5_d8c1_42db_8e8f_a3f432f7c2ce"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isEffectOf">
         <rdfs:label xml:lang="en">isEffectOf</rdfs:label>
         <rdfs:seeAlso xml:lang="en">hasCategoricalPredictor</rdfs:seeAlso>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_bf62e253_7813_4eed_bbe6_49578949d962 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasMethod -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_bf62e253_7813_4eed_bbe6_49578949d962">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasMethod">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17691fbb_0ab4_44ea_8cba_a0beddfc4768"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5eb73578_dde4_4e69_97e2_df048e544d1c"/>
         <rdfs:label xml:lang="en">hasMethod</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_c2ab6bc5_532a_4813_bda9_16902ac92c8b -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#describes -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_c2ab6bc5_532a_4813_bda9_16902ac92c8b">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_89cbdaf9_1c90_47de_bd9a_c9fa80df77d8"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_3e694f0c_13c4_40fa_a017_e85bc819a674"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#describes">
         <rdfs:label xml:lang="en">describes</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_c39658cd_a43b_4493_9b58_57cec3dd1df4 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasVariable -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_c39658cd_a43b_4493_9b58_57cec3dd1df4">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasVariable">
         <rdfs:label xml:lang="en">hasVariable</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_d034c535_66ae_42e7_a3c4_be00a0acc624 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEstimationError -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_d034c535_66ae_42e7_a3c4_be00a0acc624">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEstimationError">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_03b2b8a1_2794_467f_9273_9f34476b220c"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_58314ad9_29ac_4bd6_96e4_0a6af6d161d3"/>
         <rdfs:label xml:lang="en">hasEstimationError</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_d6f064cf_1bbb_4d49_b6fc_6dcf2cbd1a9a -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isEstimateOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_d6f064cf_1bbb_4d49_b6fc_6dcf2cbd1a9a">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isEstimateOf">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_03b2b8a1_2794_467f_9273_9f34476b220c"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_006d91df_0618_4cc0_a2ea_0c9ecc5649f9"/>
         <rdfs:comment xml:lang="en">hasEstimand</rdfs:comment>
         <rdfs:label xml:lang="en">isEstimateOf</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_d83697bf_35c3_4c93_8a20_f8e3d7e3e97f -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#solves -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_d83697bf_35c3_4c93_8a20_f8e3d7e3e97f">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#solves">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17691fbb_0ab4_44ea_8cba_a0beddfc4768"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_89cbdaf9_1c90_47de_bd9a_c9fa80df77d8"/>
         <rdfs:label xml:lang="en">solves</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_fcae3b4f_8a7c_4f10_ac62_fbd9e6bb70cb -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isDistributionOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_fcae3b4f_8a7c_4f10_ac62_fbd9e6bb70cb">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isDistributionOf">
         <rdfs:label xml:lang="en">isDistributionOf</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasValue">
+        <rdfs:label xml:lang="en">hasValue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEstimate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEstimate">
+        <rdfs:label xml:lang="en">hasEstimate</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -272,190 +276,252 @@
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_006d91df_0618_4cc0_a2ea_0c9ecc5649f9 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Parameter -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_006d91df_0618_4cc0_a2ea_0c9ecc5649f9">
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Parameter">
         <rdfs:label xml:lang="en">Parameter</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_0210c14c_f461_4d5a_86ab_6ee4b5e523d5 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#HypergeometricDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_0210c14c_f461_4d5a_86ab_6ee4b5e523d5">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_40c70729_4025_4009_815b_1fa5865cb3ef"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#HypergeometricDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DiscreteProbabilityDistribution"/>
         <rdfs:label xml:lang="en">HypergeometricDistribution</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_02392098_9c24_4803_972b_70519e3792d2 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ContinuousProbabilityDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_02392098_9c24_4803_972b_70519e3792d2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c036816_7fdb_4237_8e39_7d135c9e2db0"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_40c70729_4025_4009_815b_1fa5865cb3ef"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ContinuousProbabilityDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistribution"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DiscreteProbabilityDistribution"/>
         <rdfs:label xml:lang="en">ContinuousProbabilityDistribution</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_03b2b8a1_2794_467f_9273_9f34476b220c -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Estimator -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_03b2b8a1_2794_467f_9273_9f34476b220c">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Estimator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEstimationError"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Error"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isEstimateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Parameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasEstimate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Estimate?</rdfs:comment>
         <rdfs:label xml:lang="en">Estimator</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_0da3571f_22b0_4f06_aac5_c0e61ea0eea8 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#NormalDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_0da3571f_22b0_4f06_aac5_c0e61ea0eea8">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_02392098_9c24_4803_972b_70519e3792d2"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#NormalDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ContinuousProbabilityDistribution"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_6ab4b0ef_9beb_4f23_93f9_c54fde11eec0"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isParametrizedBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_8fefb94c_b524_4b02_bc63_66fe6ad01bdb"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ExpectedValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_6ab4b0ef_9beb_4f23_93f9_c54fde11eec0"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isParametrizedBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_aeafa18f_475b_4085_9df8_400f2b4f5e41"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variance"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_bce580a8_10bd_402e_b8f0_ace780da3ba9"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ChiSquaredDistribution"/>
         <rdfs:label xml:lang="en">NormalDistribution</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_0e60d10c_06b2_4f4d_90f3_e0d4cf42aed2 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OrdinalRegression -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_0e60d10c_06b2_4f4d_90f3_e0d4cf42aed2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_fa0293a8_300d_47ad_953c_20510b011c6b"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OrdinalRegression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearModel"/>
         <rdfs:label xml:lang="en">OrdinalRegression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_11cdffd7_6f3f_4e0a_920a_9e4c7a72cace -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#LinearRegression -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_11cdffd7_6f3f_4e0a_920a_9e4c7a72cace">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_fa0293a8_300d_47ad_953c_20510b011c6b"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#LinearRegression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearModel"/>
         <rdfs:label xml:lang="en">LinearRegression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_14adeee1_aef9_42b6_a47a_e77e818b9cd5 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_14adeee1_aef9_42b6_a47a_e77e818b9cd5">
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variable">
         <rdfs:label xml:lang="en">Variable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_152c32a5_d8c1_42db_8e8f_a3f432f7c2ce -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Effect -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_152c32a5_d8c1_42db_8e8f_a3f432f7c2ce">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_3e694f0c_13c4_40fa_a017_e85bc819a674"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_e082be86_490c_4cfd_a186_26f4c74edc8b"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Effect">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#FixedEffect"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomEffect"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isEffectOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelError"/>
         <rdfs:label xml:lang="en">Effect</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17691fbb_0ab4_44ea_8cba_a0beddfc4768 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelFitting -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17691fbb_0ab4_44ea_8cba_a0beddfc4768">
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelFitting">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#finds"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Estimator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasMethod"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#EstimationMethod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#solves"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#StatisticalModel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ModelFitting</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17d9c9c8_bca5_4e00_afbc_05cce67a9bb3 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#CategoricalVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17d9c9c8_bca5_4e00_afbc_05cce67a9bb3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_14adeee1_aef9_42b6_a47a_e77e818b9cd5"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5c87903c_4aac_4c44_8c4c_2977d41d1917"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#CategoricalVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#QuantitativeVariable"/>
         <rdfs:label xml:lang="en">CategoricalVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_185e1663_e6f4_4a70_a049_98f311f228d7 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#BayesianApproachMethod -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_185e1663_e6f4_4a70_a049_98f311f228d7">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5eb73578_dde4_4e69_97e2_df048e544d1c"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#BayesianApproachMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#EstimationMethod"/>
         <rdfs:label xml:lang="en">BayesianApproachMethod</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_276d31dd_f968_44d1_a480_819d9c8be98c -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#LinearMixedModel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_276d31dd_f968_44d1_a480_819d9c8be98c">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_a43edcbf_3690_43b4_8af1_c04d5bc39376"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#LinearMixedModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearMixedModel"/>
         <rdfs:label xml:lang="en">LinearMixedModel</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2eb7b501_ad26_471d_83d2_fdf96a469cec -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OrdinalVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2eb7b501_ad26_471d_83d2_fdf96a469cec">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_17d9c9c8_bca5_4e00_afbc_05cce67a9bb3"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OrdinalVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#CategoricalVariable"/>
         <rdfs:label xml:lang="en">OrdinalVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_14adeee1_aef9_42b6_a47a_e77e818b9cd5"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variable"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasProbabilityDistribution"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistribution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">RandomVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_3698994a_921e_4df8_96a1_a72a78379f69 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#FixedEffect -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_3698994a_921e_4df8_96a1_a72a78379f69">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_152c32a5_d8c1_42db_8e8f_a3f432f7c2ce"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#FixedEffect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Effect"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_12d189c3_45fb_4a30_bbac_cee6e45a9ac1"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_8fefb94c_b524_4b02_bc63_66fe6ad01bdb"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isQuantifiedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ExpectedValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_39f7d1f3_0596_4925_bc86_348525723446"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomEffect"/>
         <rdfs:label xml:lang="en">FixedEffect</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_38d2dfaa_4886_48d5_b514_68a7dc398ea9 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RegressionCoefficient -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_38d2dfaa_4886_48d5_b514_68a7dc398ea9">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_76aad158_7e34_48be_85d1_6baff2005c27"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RegressionCoefficient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelParameter"/>
         <rdfs:label xml:lang="en">RegressionCoefficient</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_39f7d1f3_0596_4925_bc86_348525723446 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomEffect -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_39f7d1f3_0596_4925_bc86_348525723446">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_152c32a5_d8c1_42db_8e8f_a3f432f7c2ce"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomEffect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Effect"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_12d189c3_45fb_4a30_bbac_cee6e45a9ac1"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_aeafa18f_475b_4085_9df8_400f2b4f5e41"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isQuantifiedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variance"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">RandomEffect</rdfs:label>
@@ -463,209 +529,224 @@
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_3e694f0c_13c4_40fa_a017_e85bc819a674 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelComponent -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_3e694f0c_13c4_40fa_a017_e85bc819a674">
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelComponent">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isQuantifiedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelParameter"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:label xml:lang="en">ModelComponent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_40c70729_4025_4009_815b_1fa5865cb3ef -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DiscreteProbabilityDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_40c70729_4025_4009_815b_1fa5865cb3ef">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c036816_7fdb_4237_8e39_7d135c9e2db0"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DiscreteProbabilityDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistribution"/>
         <rdfs:label xml:lang="en">DiscreteProbabilityDistribution</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_44c46b58_2f15_4d58_82c9_e456d75786b1 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ContinuousRandomVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_44c46b58_2f15_4d58_82c9_e456d75786b1">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
-        <rdfs:comment xml:lang="en">A parameter of Poisson distribution</rdfs:comment>
-        <rdfs:label xml:lang="en">Support</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_4d514c33_8af3_4398_9805_7959b8089f40 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_4d514c33_8af3_4398_9805_7959b8089f40">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_e925eaa4_7625_4f4f_8724_7c69ea29df8a"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ContinuousRandomVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DiscreteRandomVariable"/>
         <rdfs:label xml:lang="en">ContinuousRandomVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_50b9111f_61c0_45cd_acf7_e32f51bd5e4e -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DichotomousVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_50b9111f_61c0_45cd_acf7_e32f51bd5e4e">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2eb7b501_ad26_471d_83d2_fdf96a469cec"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_59e70d24_dc50_479c_9073_7048515052ae"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DichotomousVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OrdinalVariable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#NonDichotomousVariable"/>
         <rdfs:label xml:lang="en">DichotomousVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_58314ad9_29ac_4bd6_96e4_0a6af6d161d3 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Error -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_58314ad9_29ac_4bd6_96e4_0a6af6d161d3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
-        <rdfs:label xml:lang="en">EstimationError</rdfs:label>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Error">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">the residual; the difference between the observed value and its estimated value</rdfs:comment>
+        <rdfs:label>Error</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_59e70d24_dc50_479c_9073_7048515052ae -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#NonDichotomousVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_59e70d24_dc50_479c_9073_7048515052ae">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2eb7b501_ad26_471d_83d2_fdf96a469cec"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#NonDichotomousVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OrdinalVariable"/>
         <rdfs:label xml:lang="en">Non-dichotomousVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5c87903c_4aac_4c44_8c4c_2977d41d1917 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#QuantitativeVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5c87903c_4aac_4c44_8c4c_2977d41d1917">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_14adeee1_aef9_42b6_a47a_e77e818b9cd5"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#QuantitativeVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variable"/>
         <rdfs:label xml:lang="en">QuantitativeVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5eb73578_dde4_4e69_97e2_df048e544d1c -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#EstimationMethod -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5eb73578_dde4_4e69_97e2_df048e544d1c">
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#EstimationMethod">
         <rdfs:label xml:lang="en">EstimationMethod</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6265a230_5c89_4413_a3ee_741bb502c592 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#MixedModel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6265a230_5c89_4413_a3ee_741bb502c592">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_89cbdaf9_1c90_47de_bd9a_c9fa80df77d8"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#MixedModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#StatisticalModel"/>
         <rdfs:label xml:lang="en">MixedModel</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6a7f7857_6475_43c4_8ba3_8fad15f56129 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Mode -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6a7f7857_6475_43c4_8ba3_8fad15f56129">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Mode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">Mode</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6cd6776b_4b28_4981_a7fe_1f4f7bad41d8 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DegreesOfFreedom -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6cd6776b_4b28_4981_a7fe_1f4f7bad41d8">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DegreesOfFreedom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:comment xml:lang="en">For chi-squared distribution</rdfs:comment>
         <rdfs:label xml:lang="en">DegreesOfFreedom</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_70940b8c_7419_484d_a2b6_5ef7de5bb7d0 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Median -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_70940b8c_7419_484d_a2b6_5ef7de5bb7d0">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Median">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">Median</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_76aad158_7e34_48be_85d1_6baff2005c27 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelParameter -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_76aad158_7e34_48be_85d1_6baff2005c27">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_006d91df_0618_4cc0_a2ea_0c9ecc5649f9"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelParameter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Parameter"/>
         <rdfs:label xml:lang="en">ModelParameter</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7a7f17f5_8ce7_40e3_b7ee_0d28fc943ca3 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#LogisticRegression -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7a7f17f5_8ce7_40e3_b7ee_0d28fc943ca3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_fa0293a8_300d_47ad_953c_20510b011c6b"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#LogisticRegression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearModel"/>
         <rdfs:label xml:lang="en">LogisticRegression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c036816_7fdb_4237_8e39_7d135c9e2db0 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c036816_7fdb_4237_8e39_7d135c9e2db0">
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistribution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isParametrizedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ProbabilityDistribution</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_006d91df_0618_4cc0_a2ea_0c9ecc5649f9"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Parameter"/>
         <rdfs:label xml:lang="en">ProbabilityDistributionParameter</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_808e72b0_7e4f_453f_b237_ed05d83bd286 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#NonLinearRegression -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_808e72b0_7e4f_453f_b237_ed05d83bd286">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_fa0293a8_300d_47ad_953c_20510b011c6b"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#NonLinearRegression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearModel"/>
         <rdfs:label xml:lang="en">Non-linearRegression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_815e514e_ba7f_44e1_9d2e_786779b24c7b -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#NonLinearMixedModel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_815e514e_ba7f_44e1_9d2e_786779b24c7b">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6265a230_5c89_4413_a3ee_741bb502c592"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#NonLinearMixedModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#MixedModel"/>
         <rdfs:label xml:lang="en">Non-linearMixedModel</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_851611e4_ff9b_482e_afd2_7cadb7b37fdd -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RatioScaleVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_851611e4_ff9b_482e_afd2_7cadb7b37fdd">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_89a368e0_adf2_47ce_bb6b_5525492afc0b"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RatioScaleVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#IntervalScaleVariable"/>
         <rdfs:label xml:lang="en">RatioScaleVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_89a368e0_adf2_47ce_bb6b_5525492afc0b -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#IntervalScaleVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_89a368e0_adf2_47ce_bb6b_5525492afc0b">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5c87903c_4aac_4c44_8c4c_2977d41d1917"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#IntervalScaleVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#QuantitativeVariable"/>
         <rdfs:label xml:lang="en">IntervalScaleVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_89cbdaf9_1c90_47de_bd9a_c9fa80df77d8 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#StatisticalModel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_89cbdaf9_1c90_47de_bd9a_c9fa80df77d8">
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#StatisticalModel">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_4edb4a32_e91a_43d3_b1dc_4ffd90ffe1c4"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasDependantVariable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_81de83a4_5d9a_4de7_932f_ee2ba886f676"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#hasIndependentVariable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#describes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelComponent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">StatisticalModel</rdfs:label>
@@ -673,96 +754,96 @@
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_8fefb94c_b524_4b02_bc63_66fe6ad01bdb -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ExpectedValue -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_8fefb94c_b524_4b02_bc63_66fe6ad01bdb">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ExpectedValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">ExpectedValue</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_941f3942_fe19_4d37_8b2b_362e00014fd0 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Kurtosis -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_941f3942_fe19_4d37_8b2b_362e00014fd0">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Kurtosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">Kurtosis</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_a196563f_34b8_4f28_a6da_75440540a05f -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#PoissonRegression -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_a196563f_34b8_4f28_a6da_75440540a05f">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_fa0293a8_300d_47ad_953c_20510b011c6b"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#PoissonRegression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearModel"/>
         <rdfs:label xml:lang="en">PoissonRegression</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_a3ce4e7a_ca8e_402b_810a_fe2cf543ff6a -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ConditionalProbabilityDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_a3ce4e7a_ca8e_402b_810a_fe2cf543ff6a">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c036816_7fdb_4237_8e39_7d135c9e2db0"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ConditionalProbabilityDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistribution"/>
         <rdfs:label xml:lang="en">ConditionalProbabilityDistribution</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_a43edcbf_3690_43b4_8af1_c04d5bc39376 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearMixedModel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_a43edcbf_3690_43b4_8af1_c04d5bc39376">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6265a230_5c89_4413_a3ee_741bb502c592"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearMixedModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#MixedModel"/>
         <rdfs:label xml:lang="en">GeneralizedLinearMixedModel</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_aeafa18f_475b_4085_9df8_400f2b4f5e41 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variance -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_aeafa18f_475b_4085_9df8_400f2b4f5e41">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">Variance</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_b007c1bc_6073_44a0_9f98_1c035a77c59a -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Skewness -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_b007c1bc_6073_44a0_9f98_1c035a77c59a">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Skewness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">Skewness</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_b37bc99b_7ab8_4201_9439_45362172ad63 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#MaximumLikelihoodEstimationMethod -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_b37bc99b_7ab8_4201_9439_45362172ad63">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5eb73578_dde4_4e69_97e2_df048e544d1c"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#MaximumLikelihoodEstimationMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#EstimationMethod"/>
         <rdfs:label xml:lang="en">MaximumLikelihoodEstimationMethod</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_b50f755b_7c4e_4f64_99d1_655185ae2292 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#LeastSquaresMethod -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_b50f755b_7c4e_4f64_99d1_655185ae2292">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_5eb73578_dde4_4e69_97e2_df048e544d1c"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#LeastSquaresMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#EstimationMethod"/>
         <rdfs:label xml:lang="en">LeastSquaresMethod</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_bce580a8_10bd_402e_b8f0_ace780da3ba9 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ChiSquaredDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_bce580a8_10bd_402e_b8f0_ace780da3ba9">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_02392098_9c24_4803_972b_70519e3792d2"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ChiSquaredDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ContinuousProbabilityDistribution"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_6ab4b0ef_9beb_4f23_93f9_c54fde11eec0"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isParametrizedBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6cd6776b_4b28_4981_a7fe_1f4f7bad41d8"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DegreesOfFreedom"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Chi-squaredDistribution</rdfs:label>
@@ -770,104 +851,99 @@
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_be1c2ebe_db2e_4729_8725_c083d2949ea6 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Lambda -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_be1c2ebe_db2e_4729_8725_c083d2949ea6">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Lambda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">Lambda</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_c251d85f_5d8e_464e_af3f_c1a948ec8178 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Entropy -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_c251d85f_5d8e_464e_af3f_c1a948ec8178">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Entropy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">Entropy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_cac7d257_9b87_46bb_be86_1376d6d9ddf3 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#PoissonDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_cac7d257_9b87_46bb_be86_1376d6d9ddf3">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_40c70729_4025_4009_815b_1fa5865cb3ef"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#PoissonDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DiscreteProbabilityDistribution"/>
         <rdfs:label xml:lang="en">PoissonDistribution</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_d300d921_054a_4bda_9fb0_fc19a3aafa79 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#BinomialDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_d300d921_054a_4bda_9fb0_fc19a3aafa79">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_40c70729_4025_4009_815b_1fa5865cb3ef"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#BinomialDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DiscreteProbabilityDistribution"/>
         <rdfs:label xml:lang="en">BinomialDistribution</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_e082be86_490c_4cfd_a186_26f4c74edc8b -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelError -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_e082be86_490c_4cfd_a186_26f4c74edc8b">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_3e694f0c_13c4_40fa_a017_e85bc819a674"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelError">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ModelComponent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Error"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_12d189c3_45fb_4a30_bbac_cee6e45a9ac1"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_aeafa18f_475b_4085_9df8_400f2b4f5e41"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#isQuantifiedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Variance"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLObjectProperty_12d189c3_45fb_4a30_bbac_cee6e45a9ac1"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_aeafa18f_475b_4085_9df8_400f2b4f5e41"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Error</rdfs:label>
+        <rdfs:label xml:lang="en">ModelError</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_e8a2783f_1898_4a18_b098_2d9b33e39cf9 -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#StandardDeviation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_e8a2783f_1898_4a18_b098_2d9b33e39cf9">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#StandardDeviation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">StandardDeviation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_e925eaa4_7625_4f4f_8724_7c69ea29df8a -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DiscreteRandomVariable -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_e925eaa4_7625_4f4f_8724_7c69ea29df8a">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_2f061c3a_8ede_4a92_bd94_1ec93040ad7f"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#DiscreteRandomVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#RandomVariable"/>
         <rdfs:label xml:lang="en">DiscreteRandomVariable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_f3ec68cb_306a_42af_8c41_e4bbfbe7c4db -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Residual -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_f3ec68cb_306a_42af_8c41_e4bbfbe7c4db">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c57b77e_4ea9_482e_9285_6edd092e6665"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#Residual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistributionParameter"/>
         <rdfs:label xml:lang="en">Residual</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_f8584857_74c7_4936_a53d_518aa9bfe74b -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#MarginalProbabilityDistribution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_f8584857_74c7_4936_a53d_518aa9bfe74b">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_7c036816_7fdb_4237_8e39_7d135c9e2db0"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#MarginalProbabilityDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#ProbabilityDistribution"/>
         <rdfs:label xml:lang="en">MarginalProbabilityDistribution</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_fa0293a8_300d_47ad_953c_20510b011c6b -->
+    <!-- http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearModel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_fa0293a8_300d_47ad_953c_20510b011c6b">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_a43edcbf_3690_43b4_8af1_c04d5bc39376"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#GeneralizedLinearMixedModel"/>
         <rdfs:label xml:lang="en">GeneralizedLinearModel</rdfs:label>
     </owl:Class>
     
@@ -884,34 +960,17 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_0210c14c_f461_4d5a_86ab_6ee4b5e523d5"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_cac7d257_9b87_46bb_be86_1376d6d9ddf3"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_d300d921_054a_4bda_9fb0_fc19a3aafa79"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#HypergeometricDistribution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#PoissonDistribution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#BinomialDistribution"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_185e1663_e6f4_4a70_a049_98f311f228d7"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_b37bc99b_7ab8_4201_9439_45362172ad63"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_b50f755b_7c4e_4f64_99d1_655185ae2292"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_44c46b58_2f15_4d58_82c9_e456d75786b1"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6a7f7857_6475_43c4_8ba3_8fad15f56129"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_6cd6776b_4b28_4981_a7fe_1f4f7bad41d8"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_70940b8c_7419_484d_a2b6_5ef7de5bb7d0"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_8fefb94c_b524_4b02_bc63_66fe6ad01bdb"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_941f3942_fe19_4d37_8b2b_362e00014fd0"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_aeafa18f_475b_4085_9df8_400f2b4f5e41"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_b007c1bc_6073_44a0_9f98_1c035a77c59a"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_be1c2ebe_db2e_4729_8725_c083d2949ea6"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_c251d85f_5d8e_464e_af3f_c1a948ec8178"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_e8a2783f_1898_4a18_b098_2d9b33e39cf9"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#OWLClass_f3ec68cb_306a_42af_8c41_e4bbfbe7c4db"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#BayesianApproachMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#MaximumLikelihoodEstimationMethod"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hania/ontologies/2017/6/statisticalModel-ontology#LeastSquaresMethod"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
